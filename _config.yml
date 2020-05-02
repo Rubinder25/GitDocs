@@ -1,8 +1,13 @@
 theme: jekyll-theme-hacker
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+docs_list_title: ACME Documentation
+docs:
+
+- title: Introduction
+  url: introduction.html
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
